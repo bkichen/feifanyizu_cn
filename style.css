@@ -1,0 +1,499 @@
+
+/*------------------------------------------------------------
+         header
+------------------------------------------------------------*/
+TH {
+	FONT-SIZE: 12px;
+}
+TD {
+	FONT-SIZE: 12px;
+	LINE-HEIGHT: 170%;
+	WORD-BREAK: normal;
+}
+ul, li, a, span, p {
+	padding:0;
+	margin:0;
+	list-style:none;
+	font:12px "\5b8b\4f53";
+}
+img {
+	border:0px;
+}
+.dis {
+	display: block;
+}
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.clear {
+	clear:both;
+}
+.left {
+	float:left !important;
+}
+.right {
+	float:right !important;
+}
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration:underline;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+body {
+	background: url(images/body_bg.jpg) repeat left top;
+	color: #000;
+	font-size:12px;
+	text-align: center;
+	font:12px "\5b8b\4f53";
+	zoom: 1;
+	margin: 0;
+}
+
+.mainBox {
+	background: url(http://www.cymaojin.com/images/main_bg.jpg) no-repeat center bottom;
+	clear: both;
+}
+
+#main {
+	padding: 20px 0;
+	clear: both;
+	width: 1080px;
+	margin: 0 auto;
+	text-align: left;
+}
+* html #main {
+	zoom: 1;
+}
+*+html #main {
+	zoom: 1;
+}
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+.mainVisual {
+	margin-bottom: 10px;
+	clear: both;
+}
+.mainVisual img {
+	width: 100%;
+}
+
+#header {
+	padding: 28px 0 0 0;
+	background: url(http://www.cymaojin.com/images/header_bg.jpg) repeat-x left bottom;
+}
+#header .headerBox {
+	width: 1168px;
+	margin: 0 auto 15px;
+	text-align: left;
+}
+#header .logo {
+	float: left;
+}
+
+#header .rBox {
+	width: 500px;
+	text-align: right;
+	float: right;
+}
+
+#header .rBox p {
+	padding: 3px 0 15px 0;
+	text-align: right;
+	color: #000;
+}
+
+#header .rBox .tel {
+	text-align: right;
+}
+
+/*================Nav======================*/
+.gnavi {
+	clear: both;
+	background-color: #2bad8d;
+}
+
+.gnavi .g_navi {
+	text-align: left;
+	zoom: 1;
+	width: 1080px;
+	margin: 0 auto;
+}
+#Nav li {
+	background: url(images/g_line.jpg) no-repeat right center;
+	text-align: center;
+	float: left;
+	width: 135px;
+}
+
+#Nav li.last {
+	background: none;
+}
+
+#Nav li a {
+	padding: 12px 0 12px 0;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+}
+
+#Nav li a span {
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+}
+
+#Nav li a:hover {
+	text-decoration: none;
+	color: #fe4e00;
+}
+
+#Nav li.navi07 {
+	background: none;
+}
+/*------------------------------------------------------------
+         about
+------------------------------------------------------------*/
+.linkulBox {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.linkulBox .title {
+	float: left;
+}
+
+.linkulBox dl {
+	width: 980px;
+	float: right;
+}
+
+.linkulBox dl dt {
+	width: 130px;
+	float: left;
+	margin-bottom: 10px;
+	clear: both;
+}
+.linkulBox dl dd {
+	float: right;
+	font-size: 14px;
+	line-height: 30px;
+	width: 800px;
+}
+.linkulBox dl dd a {
+	margin-right: 10px;
+	font-size: 14px;
+}
+.linkulBox dl dt a {
+	display: block;
+	background-color: #26b693;
+	font-size: 14px;
+	color: #fff;
+	padding: 3px 0 3px 10px;
+	
+}
+#main .about {
+	margin-bottom: 20px;
+	border-top: 1px solid #32b999;
+}
+
+#main .about .fize {
+	width: 1080px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+#main .about .fize .title {
+	text-align: center;
+	margin: -30px 0 30px 0;
+	position: relative;
+}
+
+#main .about .fize img {
+	margin-right: 20px;
+}
+
+#main .about .fize span {
+	font-size: 14px;
+	text-indent: 2em;
+	color: #323232;
+	line-height: 28px;
+}
+
+#main .about .fize .fizeBox {
+	margin: 0 10px;
+}
+#main .about p img {
+	display: block;
+}
+.innerBox {
+	width: 1080px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.innerBox .photoBox {
+	float: left;
+	display: inline;
+	margin-left: -100px;
+	position: relative;
+}
+
+.index_contactBox {
+	background: url(images/con_bg.jpg) no-repeat left top;
+	clear: both;
+	width: 1080px;
+	margin: 0 auto;
+	height: 215px;
+}
+
+.index_contactBox .contact {
+	width: 350px;
+	padding-top: 10px;
+	float: right;
+}
+
+
+#sideBar .contact {
+}
+
+#sideBar .contactBox .evm {
+	text-align: center;
+}
+
+#sideBar .contactBox span {
+	font-size: 13px;
+	line-height: 25px;
+	padding-left: 10px;
+	display: block;
+}
+
+
+/*------------------------------------------------------------
+         news
+------------------------------------------------------------*/
+.detailBox {
+	width: 1080px;
+	margin: 0 auto;
+	zoom: 1;
+}
+
+.newsBox {
+	padding-top: 30px;
+	float: left;
+	width: 340px;
+}
+
+.newsBox p img {
+	display: block;
+}
+.new_box {
+	padding: 5px 0 5px 0;
+	zoom: 1;
+}
+
+.newsBox .news_inner a:hover {
+	color: #ff3d00;
+}
+
+.newsBox .news_inner a {
+	margin-left: 8px;
+	padding-left: 15px;
+	background: url(images/icon01.jpg) no-repeat left center;
+	color: #323232;
+	font-size: 14px;
+}
+
+.detailBox .titleBox {
+	float: right;
+}
+
+
+
+/*------------------------------------------------------------
+         productsBox
+------------------------------------------------------------*/
+
+.productsBox {
+	width: 790px;
+	float: right;
+}
+
+.productsBox .marquee {
+	padding: 5px;
+}
+.productsBox .marquee td {
+	font-size: 14px;
+}
+
+/*------------------------------------------------------------
+         link
+------------------------------------------------------------*/
+.link {
+	background-color: #ebeceb;
+	text-align: left;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.link .link_p {
+	padding: 5px;
+	color: #32b999;
+	background: url(images/youqing_bg.jpg) repeat-y left top;
+}
+.link .link_p span {
+	font-size: 14px;
+}
+/*------------------------------------------------------------
+         footer
+------------------------------------------------------------*/
+#footer {
+	background: url(images/footer_bg.jpg) repeat left top;
+	clear: both;
+	width: 1080px;
+	margin: 0 auto;
+	text-align: left;
+}
+#footer .footerBox {
+	padding: 10px;
+}
+#footer .footerBox .evm {
+	float: left;
+}
+
+#footer .footerBox .text {
+	width: 870px;
+	float: right;
+	color: #262626;
+	padding-top: 40px;
+	
+}
+
+#footer .footerBox p {
+	font-size: 14px;
+	line-height: 30px;
+	
+}
+
+#footer .footerBox p a {
+	color: #262626;
+	font-size: 14px;
+	margin-right: 30px;
+}
+
+#footer .footerBox p.textp a {
+	margin-right: 0;
+}
+/*------------------------------------------------------------
+         sideBar
+------------------------------------------------------------*/
+#sideBar {
+	display: inline;
+	float: left;
+	width: 270px;
+}
+.spBox .sp {
+	padding: 5px 0 5px 0;
+	background-color: #d4d4d3;
+	text-align: center;
+}
+
+.contactBox .tel {
+	margin-top: 5px;
+}
+
+.pr {
+	margin-bottom: 10px;
+}
+
+.pr p {
+	margin-bottom: 10px;
+}
+
+.pr .sNavi {
+	zoom: 1;
+}
+.pr .sNavi a {
+	background-color: #26b693;
+	font-size: 14px;
+	display: block;
+	line-height: 30px;
+	padding-left: 20px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.pr .sNavi a {
+	
+}
+.pr .sNavi a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.listBox {
+	margin: 0 auto;
+	width: 240px;
+}
+
+
+/*------------------------------------------------------------
+         conts
+------------------------------------------------------------*/
+/** html #conts {
+	min-height:517px;
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)>517?"517px":"");
+} */
+#conts {
+	float: right;
+	width: 800px;
+	display: inline;
+}
+ 
+#conts .bg {
+	margin-bottom: 10px;
+	padding: 9px 0 9px 10px;
+	border-bottom: 1px solid #CCC; 
+}
+
+#conts .bg li {
+	color: #000;
+	font-size: 14px;
+}
+
+#conts .bg li a {
+	font-size: 14px;
+	color: #3099db;
+	font-weight: bold;
+}
+
+.hover a {
+	background-color: #fff;
+	padding: 5px;
+	display: block;
+	border: 1px dotted #CCC;
+	width: 225px;
+	height: 160px;
+}
+
+.hover a:hover {
+	border: 1px solid #F00;
+}
